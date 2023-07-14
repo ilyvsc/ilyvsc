@@ -1,3 +1,5 @@
+<img src='https://raw.githubusercontent.com/ilyvsc/ilyvsc/main/dev_banner.png' style='border-radius: 10px;'>
+
 # Hi there, I'm [Luis Diaz](https://www.luisdiaz.tech/) 👋
 
 I'm an 18-year-old developer passionate about creating awesome things with Python.
