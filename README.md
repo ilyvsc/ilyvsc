@@ -1,9 +1,9 @@
-<img src='https://raw.githubusercontent.com/ilyvsc/ilyvsc/main/dev_banner.png' style='border-radius: 10px;'>
+![Banner](https://raw.githubusercontent.com/ilyvsc/ilyvsc/main/dev_banner.png)
 
 # Hi there, I'm [Luis Diaz](https://www.luisdiaz.tech/) 👋
 
-I'm an 18-year-old developer passionate about creating awesome things with Python.
-I'm currently taking [CS50's Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science) course, and also finishing [CS50's Introduction to Programming with Python](https://pll.harvard.edu/course/cs50s-introduction-programming-python) on [Edx](https://edx.org/).
+I'm a highly motivated and skilled Jr. Software Developer with a passion for AI and Web Development.
+I have a strong understanding of the Python programming language, as well as web frameworks such as Django and Flask. Also familiar with version control systems, front-end technologies, and database systems.
 
 ## Skills
 
