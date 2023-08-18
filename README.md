@@ -59,20 +59,10 @@ I have a strong understanding of the Python programming language, as well as web
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
-## Projects
-
-### Notion Hub
-
-<a href="https://www.notionhub.tech/">
-  <img src="https://i.postimg.cc/8zSHkMVc/Notion-Hub.webp" alt="Notion Hub" style="border-radius: 10px;">
-</a>
-
-Notion Hub is an innovative digital marketplace offering a diverse collection of productivity-enhancing Notion Templates. Use these templates to streamline your life and maximize efficiency through effective management strategies. Discover a wealth of resources to boost productivity at [notionhub.tech](https://www.notionhub.tech/).
-
 ## Connect with me
 
 [![Website](https://img.shields.io/badge/Web-luisdiaz.tech-430098?style=for-the-badge&logo=dev.to&logoColor=white&labelColor=black)](https://www.luisdiaz.tech/)
 [![Telegram](https://img.shields.io/badge/Telegram-Luis%20Diaz-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=black)](https://t.me/DoNotReplies)
 \
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Luis%20Diaz-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=black)](https://www.linkedin.com/in/mrluisdiaz)
-[![Twitter](https://img.shields.io/badge/Twitter-@mrluisdiaz-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=black)](https://twitter.com/mrluisdiaz)
+[![Twitter](https://img.shields.io/badge/Twitter-@ilyvsc-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=black)](https://twitter.com/ilyvsc)
