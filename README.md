@@ -1,8 +1,6 @@
-![Banner](https://raw.githubusercontent.com/ilyvsc/ilyvsc/main/dev_banner.png)
-
 # Hey there
 
-Nothing to say... just keep scrolling.
+[![roadmap.sh](https://api.roadmap.sh/v1-badge/tall/645181c65df036783c4d569b?variant=dark&roadmaps=software-design-architecture%2Csoftware-architect%2Ccomputer-science%2Cbackend)](https://roadmap.sh)
 
 ## Skills
 
