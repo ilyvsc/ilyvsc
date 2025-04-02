@@ -18,8 +18,8 @@ jobs:
           # AniList
           plugin_anilist: yes
           plugin_anilist_shuffle: yes
-          plugin_anilist_limit: ${{ secrets.ANILIST_LIMIT }} # number of rows to show
-          plugin_anilist_limit_characters: ${{ secrets.ANILIST_LIMIT_CHARACTERS }} # number of items to show
-          plugin_anilist_medias: ${{ secrets.ANILIST_MEDIAS }} # anime
-          plugin_anilist_sections: ${{ secrets.ANILIST_MEDIAS_SECTIONS }} # characters
+          plugin_anilist_limit: ${{ vars.ANILIST_LIMIT }} # number of rows to show
+          plugin_anilist_limit_characters: ${{ vars.ANILIST_LIMIT_CHARACTERS }} # number of items to show
+          plugin_anilist_medias: ${{ vars.ANILIST_MEDIAS }} # anime
+          plugin_anilist_sections: ${{ vars.ANILIST_MEDIAS_SECTIONS }} # characters
           plugin_anilist_user: ${{ secrets.ANILIST_USER }} # username
