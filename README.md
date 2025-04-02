@@ -31,6 +31,6 @@
 
 <!-- END congrats section -->
 
-<!-- <img src="./static/anilist.characters.svg" alt="megumin best girl"> -->
+<img src="./static/anilist.characters.svg" alt="megumin best girl">
 
 <!-- Do you think that I am insane? -->
