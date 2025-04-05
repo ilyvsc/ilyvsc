@@ -11,14 +11,13 @@ jobs:
         with:
           filename: static/anilist.characters.mobile.svg
           token: NOT_NEEDED
-          config_display: 375 # Mobile view width (common mobile resolution)
+          config_display: regular # Mobile view width (common mobile resolution)
           base: ""
           base_hireable: yes
           committer_branch: static/plugins
 
           # AniList configuration
           plugin_anilist: yes
-          plugin_anilist_shuffle: yes
           plugin_anilist_limit: ${{ vars.ANILIST_LIMIT }}
           plugin_anilist_limit_characters: ${{ vars.ANILIST_LIMIT_CHARACTERS }}
           plugin_anilist_medias: ${{ vars.ANILIST_MEDIAS }}
@@ -31,14 +30,13 @@ jobs:
         with:
           filename: static/anilist.characters.desktop.svg
           token: NOT_NEEDED
-          config_display: 1440 # Desktop view width (common desktop resolution)
+          config_display: large # Desktop view width (common desktop resolution)
           base: ""
           base_hireable: yes
           committer_branch: static/plugins
 
           # AniList configuration
           plugin_anilist: yes
-          plugin_anilist_shuffle: yes
           plugin_anilist_limit: ${{ vars.ANILIST_LIMIT }}
           plugin_anilist_limit_characters: ${{ vars.ANILIST_LIMIT_CHARACTERS }}
           plugin_anilist_medias: ${{ vars.ANILIST_MEDIAS }}
