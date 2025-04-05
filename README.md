@@ -1,9 +1,31 @@
 # What are you even doing here?
 
+Anyway, welcome to my digital living room. Kick off your shoes, grab a drink—no need for formalities here.
+
+## Wanna know me better?
+
+Can't say much; let's watch anime, read manga, or discuss about music or anything IT-related. Maybe i'll spit a few things about me in the process.
+
+### 🚥 But be sure that I bring
+
+- **No fluff, just stuff:**  If it’s broken, I’ll say so. If it’s working, cool, let’s make it better.
+- **Efficiency nerd:** If a task takes 10 steps, I’ll obsess until it takes 3. (dead serious)
+- **Team glue:** I translate “tech speak” into human. Or into Japanese, slowly. 🇯🇵
+
+### 🚧 Outside the Terminal
+
+- Anime marathons > sleep. *Ado-san approves this.*
+- Learning Japanese so I can finally read [ヴァイオレット・エヴァーガーデン](https://anilist.co/manga/97298/Violet-Evergarden/) raw.
+- Probably rewatching [Konosuba](https://anilist.co/anime/21202/Kono-Subarashii-Sekai-ni-Shukufuku-wo/) for the 12th time.
+    Megumin besto girl, obviously.
+
+    <img src="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" alt="explosion" width="300">
+    <img src="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" alt="chomuske" width="300">
+
 <!-- START congrats section -->
 
 <div align="center">
-    <h2>Special Thanks to these masterpieces → お疲れ様です</h1>
+    <h2>Special Thanks to these masterpieces → お疲れ様です</h2>
 
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
 <a href="https://open.spotify.com/album/4qApTp9557qYZzRLEih4uP">
@@ -30,6 +52,7 @@
 </div>
 
 <!-- END congrats section -->
+--------------------------------------------------------------------------------------
 
 <div align="center">
 <picture>
@@ -39,4 +62,5 @@
 </picture>
 </div>
 
+*P.S. If you found typos, was intended.*
 <!-- Do you think that I am insane? -->
