@@ -18,7 +18,7 @@ jobs:
 
           # AniList configuration
           plugin_anilist: yes
-          plugin_anilist_limit: ${{ vars.ANILIST_LIMIT }}
+          plugin_anilist_limit: ${{ vars.ANILIST_LIMIT_MOBILE }}
           plugin_anilist_limit_characters: ${{ vars.ANILIST_LIMIT_CHARACTERS }}
           plugin_anilist_medias: ${{ vars.ANILIST_MEDIAS }}
           plugin_anilist_sections: ${{ vars.ANILIST_MEDIAS_SECTIONS }}
@@ -37,7 +37,7 @@ jobs:
 
           # AniList configuration
           plugin_anilist: yes
-          plugin_anilist_limit: ${{ vars.ANILIST_LIMIT }}
+          plugin_anilist_limit: ${{ vars.ANILIST_LIMIT_DESKTOP }}
           plugin_anilist_limit_characters: ${{ vars.ANILIST_LIMIT_CHARACTERS }}
           plugin_anilist_medias: ${{ vars.ANILIST_MEDIAS }}
           plugin_anilist_sections: ${{ vars.ANILIST_MEDIAS_SECTIONS }}
