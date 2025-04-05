@@ -31,6 +31,10 @@
 
 <!-- END congrats section -->
 
-<img src="./static/anilist.characters.svg" alt="megumin best girl">
+<picture>
+  <source media="(max-width: 768px)" srcset="static/anilist.characters.mobile.svg">
+  <source media="(min-width: 769px)" srcset="static/anilist.characters.desktop.svg">
+  <img src="static/anilist.characters.desktop.svg" alt="AniList Characters | MEGUMIN BEST GIRL">
+</picture>
 
 <!-- Do you think that I am insane? -->
