@@ -8,7 +8,7 @@ jobs:
       - name: Medias
         uses: lowlighter/metrics@latest
         with:
-          filename: ./static/anilist.characters.svg
+          filename: static/anilist.characters.svg
           token: NOT_NEEDED
 
           base: ""
