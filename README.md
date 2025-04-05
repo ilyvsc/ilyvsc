@@ -34,7 +34,26 @@
 <picture>
   <source media="(max-width: 768px)" srcset="static/anilist.characters.mobile.svg">
   <source media="(min-width: 769px)" srcset="static/anilist.characters.desktop.svg">
-  <img src="static/anilist.characters.desktop.svg" alt="AniList Characters | MEGUMIN BEST GIRL">
+  <img src="static/anilist.characters.desktop.svg" class="characters" alt="AniList Characters | MEGUMIN BEST GIRL">
 </picture>
+
+<style>
+  .characters {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .characters {
+    width: auto;
+    max-width: 100%;
+  }
+
+  @media (min-width: 769px) {
+    .characters {
+      width: 100%;
+      max-width: 1200px;
+    }
+  }
+</style>
 
 <!-- Do you think that I am insane? -->
