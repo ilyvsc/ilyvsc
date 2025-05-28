@@ -1,26 +1,37 @@
+<img src="https://c.tenor.com/Dukq4hDt908AAAAd/tenor.gif" alt="explosion" width="1200">
+
 # What are you even doing here?
 
-Anyway, welcome to my digital living room. Kick off your shoes, grab a drink—no need for formalities here.
+Anyway, *welcome* to my digital living room. Kick off your shoes, grab a drink—no need for formalities here.
 
-## Wanna know me better?
+> [!WARNING]
+> - don't ask me about my favorite stuff, unless it's your day off.
+> - don't give me a 'half' opinion, i want to know every single detail.
 
-Can't say much; let's watch anime, read manga, or discuss about music or anything IT-related. Maybe i'll spit a few things about me in the process.
+## facts about me?
 
-### 🚥 But be sure that I bring
+I don't know... thus I can't say much about me; let's watch anime, read manga, or discuss music or anything IT-related. Maybe i'll spit a few things about me in the process.
 
-- **No fluff, just stuff:**  If it’s broken, I’ll say so. If it’s working, cool, let’s make it better.
-- **Efficiency nerd:** If a task takes 10 steps, I’ll obsess until it takes 3. (dead serious)
-- **Team glue:** I translate “tech speak” into human. Or into Japanese, slowly. 🇯🇵
+### but a few boring things
 
-### 🚧 Outside the Terminal
+- i'm an '**efficiency nerd**', why? Well... if a task takes 10 steps, I’ll obsess until it takes 3. (dead serious)
+- hate endless blablabla, if it’s broken, I’ll fix it. If it’s working, cool, let’s make it better. **If it does not exist, I'll build it.**
+- extremely social, even tho i'm asocial, ironic, right? I translate “tech speak” into human. Or into Japanese, slowly... 🇯🇵
 
-- Anime marathons > sleep. *Ado-san approves this.*
-- Learning Japanese so I can finally read [ヴァイオレット・エヴァーガーデン](https://anilist.co/manga/97298/Violet-Evergarden/) raw.
-- Probably rewatching [Konosuba](https://anilist.co/anime/21202/Kono-Subarashii-Sekai-ni-Shukufuku-wo/) for the 12th time.
-    Megumin besto girl, obviously.
+### besides `sudo` i'll be
 
-    <img src="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" alt="explosion" width="300">
-    <img src="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" alt="chomuske" width="300">
+- watching anime instead of running `systemctl poweroff`. *[Adoちゃん][ado-chan] approves this.*
+- listening to VOCALOID and j-pop songs, *all the time*. metal + cuteness == [perfection][babymetal-url]
+- learning Japanese so I can finally read [ヴァイオレット・エヴァーガーデン][violet-url] raw. plus my manga collection.
+- crying out loud to some romcom. after [Horimiya][horimiya-url] and [五等分の花嫁][5hanayome-url] i'm not the same.
+- singing (sort of) (any of these OPs)[openings-url], supporting [lia from shallm][lia-url], or talking about [Ado](https://ado.fan/).
+- suffering from not having enough time to do all the things above, in a day, and work...
+- and *probably* rewatching [Konosuba][konosuba-url] for the 13th time, no kidding. *Megumin besto girl. No discussion.*
+
+<div style="display: flex; gap: 10px;">
+  <img src="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" alt="explosion" width="300">
+  <img src="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" alt="chomuske" width="300">
+</div>
 
 <!-- START congrats section -->
 
@@ -62,5 +73,17 @@ Can't say much; let's watch anime, read manga, or discuss about music or anythin
 </picture>
 </div>
 
-*P.S. If you found typos, was intended.*
+*P.S. If you found typos, was 100% intended.*
+
 <!-- Do you think that I am insane? -->
+<!-- myself: are you seriously asking? -->
+
+<!-- Link Definitions -->
+[ado-chan]: https://c.tenor.com/hiFPNCu8aW8AAAAd/tenor.gif
+[babymetal-url]: https://open.spotify.com/artist/630wzNP2OL7fl4Xl0GnMWq
+[horimiya-url]: https://anilist.co/anime/124080/Horimiya/
+[5hanayome-url]: https://anilist.co/anime/103572/Gotoubun-no-Hanayome/
+[violet-url]: https://anilist.co/manga/97298/Violet-Evergarden/
+[konosuba-url]: https://anilist.co/anime/21202/Kono-Subarashii-Sekai-ni-Shukufuku-wo/
+[openings-url]: https://open.spotify.com/playlist/1YA5cPIfDy3L03bGnNiDM7
+[lia-url]: https://open.spotify.com/artist/7p59bvZexyLPxLprpZRV6L
