@@ -24,7 +24,7 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 - listening to VOCALOID and j-pop songs, *all the time*. metal + cuteness == [perfection][babymetal-url]
 - learning Japanese so I can finally read [ヴァイオレット・エヴァーガーデン][violet-url] raw. plus my manga collection.
 - crying out loud to some romcom. after [Horimiya][horimiya-url] and [五等分の花嫁][5hanayome-url] i'm not the same.
-- singing (sort of) (any of these OPs)[openings-url], supporting [lia from shallm][lia-url], or talking about [Ado](https://ado.fan/).
+- singing (sort of) [any of these OPs][openings-url], supporting [lia from shallm][lia-url], or talking about [Ado](https://ado.fan/).
 - suffering from not having enough time to do all the things above, in a day, and work...
 - and *probably* rewatching [Konosuba][konosuba-url] for the 13th time, no kidding. *Megumin besto girl. No discussion.*
 
