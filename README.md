@@ -60,8 +60,8 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 
   <a href="https://open.spotify.com/artist/6mEQK9m2krja6X1cfsAjfl">
     <picture>
-      <source media="(max-width: 768px)" srcset="https://ado-shop.com/cdn/shop/files/TYCT-69345.jpg?v=1736444696" width="120">
-      <img src="https://ado-shop.com/cdn/shop/files/TYCT-69345.jpg?v=1736444696" width="300">
+      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="120">
+      <img src="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="300">
     </picture>
   </a>
 
