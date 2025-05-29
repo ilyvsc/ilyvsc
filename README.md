@@ -81,7 +81,7 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 
 <div align="center">
 <picture>
-  <source media="(max-width: 768px)" srcset="static/anilist.characters.mobile.svg">
+  <source media="(max-width: 768px)" srcset="static/anilist.characters.mobile.svg" width="500>
   <source width="1200px" media="(min-width: 769px)" srcset="static/anilist.characters.desktop.svg">
   <img src="static/anilist.characters.desktop.svg" alt="AniList Characters | MEGUMIN BEST GIRL">
 </picture>
