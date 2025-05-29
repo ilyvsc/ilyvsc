@@ -50,7 +50,7 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 <div align="center">
   <h2>Special thanks to these masterpieces. お疲れ様です <3 </h2>
 
-<div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
+<div style="display: flex; justify-content: center; flex-wrap: wrap;">
   <a href="https://open.spotify.com/album/4qApTp9557qYZzRLEih4uP">
     <picture>
       <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="120">
