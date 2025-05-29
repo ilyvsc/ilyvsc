@@ -28,9 +28,21 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 - suffering from not having enough time to do all the things above, in a day, and work...
 - and *probably* rewatching [Konosuba][konosuba-url] for the 13th time, no kidding. *Megumin besto girl. No discussion.*
 
-<div style="display: flex; gap: 10px;">
-  <img src="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" alt="explosion" width="300">
-  <img src="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" alt="chomuske" width="300">
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <picture>
+    <source media="(max-width: 768px)" srcset="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" width="200">
+    <img src="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" width="300">
+  </picture>
+
+  <picture>
+    <source media="(max-width: 768px)" srcset="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" width="200">
+    <img src="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" width="300">
+  </picture>
+
+  <picture>
+    <source media="(max-width: 768px)" srcset="" width="0" height="0"> <!-- hide in mobile view -->
+    <img src="https://c.tenor.com/RibP4sADLPMAAAAd/tenor.gif" width="300">
+  </picture>
 </div>
 
 <!-- START congrats section -->
