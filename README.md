@@ -25,17 +25,17 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
   <picture>
     <source media="(max-width: 768px)" srcset="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" width="330">
-    <img src="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" width="290">
+    <img src="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" width="250">
   </picture>
 
   <picture>
     <source media="(max-width: 768px)" srcset="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" width="330">
-    <img src="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" width="290">
+    <img src="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" width="250">
   </picture>
 
   <picture>
     <source media="(max-width: 768px)" srcset="" width="0" height="0"> <!-- hide in mobile view -->
-    <img src="https://c.tenor.com/RibP4sADLPMAAAAd/tenor.gif" width="290">
+    <img src="https://c.tenor.com/RibP4sADLPMAAAAd/tenor.gif" width="250">
   </picture>
 </div>
 
@@ -48,21 +48,21 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
   <a href="https://open.spotify.com/album/4qApTp9557qYZzRLEih4uP">
     <picture>
       <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="110">
-      <img src="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="290">
+      <img src="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="250">
     </picture>
   </a>
 
   <a href="https://open.spotify.com/artist/6mEQK9m2krja6X1cfsAjfl">
     <picture>
       <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="110">
-      <img src="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="290">
+      <img src="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="250">
     </picture>
   </a>
 
   <a href="https://open.spotify.com/album/24pr7CLiiJk8rUsXcocSA4">
     <picture>
       <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b27374164dc6fb6a320abf6a34fd" width="110">
-      <img src="https://i.scdn.co/image/ab67616d0000b27374164dc6fb6a320abf6a34fd" width="290">
+      <img src="https://i.scdn.co/image/ab67616d0000b27374164dc6fb6a320abf6a34fd" width="250">
     </picture>
   </a>
 </div>
