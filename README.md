@@ -19,7 +19,7 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 - learning Japanese so I can finally read [ヴァイオレット・エヴァーガーデン][violet-url] raw. plus my manga collection.
 - crying out loud to some romcom. after [Horimiya][horimiya-url] and [五等分の花嫁][5hanayome-url] i'm not the same.
 - singing (sort of) [any of these OPs][openings-url], supporting [lia from shallm][lia-url], or talking about [Ado](https://ado.fan/).
-- suffering from not having enough time to do all the things above, in a day, and work...
+- suffering from not having enough time to do all the things above, in a day, and work... [extremely long planning list][planning-list]
 - and *probably* rewatching [Konosuba][konosuba-url] for the 13th time, no kidding. *Megumin besto girl. No discussion.*
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
@@ -95,3 +95,4 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 [konosuba-url]: https://anilist.co/anime/21202/Kono-Subarashii-Sekai-ni-Shukufuku-wo/
 [openings-url]: https://open.spotify.com/playlist/1YA5cPIfDy3L03bGnNiDM7
 [lia-url]: https://open.spotify.com/artist/7p59bvZexyLPxLprpZRV6L
+[planning-list]: https://anilist.co/user/kokoronashi1024/animelist/Planning
