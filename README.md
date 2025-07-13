@@ -24,12 +24,12 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
   <picture>
-    <source media="(max-width: 768px)" srcset="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" width="330">
+    <source media="(max-width: 768px)" srcset="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" width="150">
     <img src="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" width="250">
   </picture>
 
   <picture>
-    <source media="(max-width: 768px)" srcset="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" width="330">
+    <source media="(max-width: 768px)" srcset="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" width="150">
     <img src="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" width="250">
   </picture>
 
