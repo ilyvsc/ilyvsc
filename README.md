@@ -47,21 +47,21 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
   <a href="https://open.spotify.com/album/4qApTp9557qYZzRLEih4uP">
     <picture>
-      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="110">
+      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="100">
       <img src="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="250">
     </picture>
   </a>
 
   <a href="https://open.spotify.com/artist/6mEQK9m2krja6X1cfsAjfl">
     <picture>
-      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="110">
+      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="100">
       <img src="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="250">
     </picture>
   </a>
 
   <a href="https://open.spotify.com/album/24pr7CLiiJk8rUsXcocSA4">
     <picture>
-      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b27374164dc6fb6a320abf6a34fd" width="110">
+      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b27374164dc6fb6a320abf6a34fd" width="100">
       <img src="https://i.scdn.co/image/ab67616d0000b27374164dc6fb6a320abf6a34fd" width="250">
     </picture>
   </a>
