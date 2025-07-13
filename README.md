@@ -5,23 +5,17 @@
 Anyway, *welcome* to my digital living room. Kick off your shoes, grab a drink—no need for formalities here.
 
 > [!WARNING]
-> - don't ask me about my favorite stuff, unless it's your day off.
+> - don't ask me about my favorite stuff unless it's your day off.
 > - don't give me a 'half' opinion, i want to know every single detail.
 
 ## facts about me?
 
-I don't know... thus I can't say much about me; let's watch anime, read manga, or discuss music or anything IT-related. Maybe i'll spit a few things about me in the process.
-
-### but a few boring things
-
-- i'm an '**efficiency nerd**', why? Well... if a task takes 10 steps, I’ll obsess until it takes 3. (dead serious)
-- hate endless blablabla, if it’s broken, I’ll fix it. If it’s working, cool, let’s make it better. **If it does not exist, I'll build it.**
-- extremely social, even tho i'm asocial, ironic, right? I translate “tech speak” into human. Or into Japanese, slowly... 🇯🇵
+I don't know... thus I can't say much about me; let's watch anime, read manga, or discuss music or anything IT-related. I may spit a few things about myself in the process.
 
 ### besides `sudo` i'll be
 
 - watching anime instead of running `systemctl poweroff`. *[Adoちゃん][ado-chan] approves this.*
-- listening to VOCALOID and j-pop songs, *all the time*. metal + cuteness == [perfection][babymetal-url]
+- listening to VOCALOID and J-pop songs, *all the time*. metal + cuteness == [perfection][babymetal-url]
 - learning Japanese so I can finally read [ヴァイオレット・エヴァーガーデン][violet-url] raw. plus my manga collection.
 - crying out loud to some romcom. after [Horimiya][horimiya-url] and [五等分の花嫁][5hanayome-url] i'm not the same.
 - singing (sort of) [any of these OPs][openings-url], supporting [lia from shallm][lia-url], or talking about [Ado](https://ado.fan/).
@@ -30,12 +24,12 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center;">
   <picture>
-    <source media="(max-width: 768px)" srcset="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" width="350">
+    <source media="(max-width: 768px)" srcset="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" width="340">
     <img src="https://c.tenor.com/uX8RUdk-an4AAAAd/tenor.gif" width="300">
   </picture>
 
   <picture>
-    <source media="(max-width: 768px)" srcset="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" width="350">
+    <source media="(max-width: 768px)" srcset="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" width="340">
     <img src="https://c.tenor.com/NZhNfPuifwEAAAAd/tenor.gif" width="300">
   </picture>
 
@@ -53,21 +47,21 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
   <a href="https://open.spotify.com/album/4qApTp9557qYZzRLEih4uP">
     <picture>
-      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="120">
+      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="110">
       <img src="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="300">
     </picture>
   </a>
 
   <a href="https://open.spotify.com/artist/6mEQK9m2krja6X1cfsAjfl">
     <picture>
-      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="120">
+      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="110">
       <img src="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="300">
     </picture>
   </a>
 
   <a href="https://open.spotify.com/album/24pr7CLiiJk8rUsXcocSA4">
     <picture>
-      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b27374164dc6fb6a320abf6a34fd" width="120">
+      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b27374164dc6fb6a320abf6a34fd" width="110">
       <img src="https://i.scdn.co/image/ab67616d0000b27374164dc6fb6a320abf6a34fd" width="300">
     </picture>
   </a>
