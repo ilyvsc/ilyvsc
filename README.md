@@ -1,24 +1,17 @@
 <img src="https://c.tenor.com/Dukq4hDt908AAAAd/tenor.gif" alt="explosion" width="1200">
 
-# What are you even doing here?
+# ![welcome][welcome-gif]
 
-Anyway, *welcome* to my digital living room. Kick off your shoes, grab a drink—no need for formalities here.
+as you can see this is not professional-ready, but... why it would be? enjoy my gratitute profile.
 
-> [!WARNING]
-> - don't ask me about my favorite stuff unless it's your day off.
-> - don't give me a 'half' opinion, i want to know every single detail.
-
-## facts about me?
-
-I don't know... thus I can't say much about me; let's watch anime, read manga, or discuss music or anything IT-related. I may spit a few things about myself in the process.
-
-### besides `sudo` i'll be
+## stuff i love (i'm probably doing now)
 
 - watching anime instead of running `systemctl poweroff`. *[Adoちゃん][ado-chan] approves this.*
-- listening to VOCALOID and J-pop songs, *all the time*. metal + cuteness == [perfection][babymetal-url]
-- learning Japanese so I can finally read [ヴァイオレット・エヴァーガーデン][violet-url] raw. plus my manga collection.
-- crying out loud to some romcom. after [Horimiya][horimiya-url] and [五等分の花嫁][5hanayome-url] i'm not the same.
-- singing (sort of) [any of these OPs][openings-url], supporting [lia from shallm][lia-url], or talking about [Ado](https://ado.fan/).
+- listening to VOCALOID and J-pop songs, metal, or anything that sticks... *all the time*. metal + cuteness == [find out...][babymetal-url]
+- learning Japanese so I can finally read [ヴァイオレット・エヴァーガーデン][violet-url] raw and my manga collection.
+  - lately i've found out that translations from mainstream platforms like Netflix and Crunchyroll fckn sucks. censorship it is.
+- crying out loud to some romcom. after [Horimiya][horimiya-url] and [五等分の花嫁][5hanayome-url] i'm not the same. craving love i guess?
+- singing (sort of) [any of these OPs][openings-url], supporting [lia from shallm][lia-url], or talking about [Ado](https://ado.fan/). [Sayuri][sayuri-url] departure still **hurts**.
 - suffering from not having enough time to do all the things above, in a day, and work... [extremely long planning list][planning-list]
 - and *probably* rewatching [Konosuba][konosuba-url] for the 13th time, no kidding. *Megumin besto girl. No discussion.*
 
@@ -68,7 +61,6 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 </div>
 </div>
 
-
 <!-- END congrats section -->
 
 ## 
@@ -81,12 +73,12 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 </picture>
 </div>
 
-*P.S. If you found typos, was 100% intended.*
-
 <!-- Do you think that I am insane? -->
 <!-- myself: are you seriously asking? -->
+<!-- myself again: who cares? -->
 
 <!-- Link Definitions -->
+[welcome-gif]: https://media.tenor.com/EPezFYu-f1IAAAAj/welcome-vocaloid.gif
 [ado-chan]: https://c.tenor.com/hiFPNCu8aW8AAAAd/tenor.gif
 [babymetal-url]: https://open.spotify.com/artist/630wzNP2OL7fl4Xl0GnMWq
 [horimiya-url]: https://anilist.co/anime/124080/Horimiya/
@@ -95,4 +87,5 @@ I don't know... thus I can't say much about me; let's watch anime, read manga, o
 [konosuba-url]: https://anilist.co/anime/21202/Kono-Subarashii-Sekai-ni-Shukufuku-wo/
 [openings-url]: https://open.spotify.com/playlist/1YA5cPIfDy3L03bGnNiDM7
 [lia-url]: https://open.spotify.com/artist/7p59bvZexyLPxLprpZRV6L
+[sayuri-url]: https://open.spotify.com/artist/1YLxQZIGsaZq9rvFu8zeRz
 [planning-list]: https://anilist.co/user/kokoronashi1024/animelist/Planning
