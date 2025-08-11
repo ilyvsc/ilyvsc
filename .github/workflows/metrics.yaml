@@ -1,44 +1,65 @@
 name: Metrics
 on:
   workflow_dispatch:
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      # Mobile-optimized version
-      - name: Medias (Mobile)
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Medias
         uses: lowlighter/metrics@latest
         with:
-          filename: static/anilist.characters.mobile.svg
+          filename: static/anilist.characters.svg
           token: NOT_NEEDED
-          config_display: regular # Mobile view width (common mobile resolution)
+          config_display: large
           base: ""
           base_hireable: yes
-          committer_branch: static/plugins
-
-          # AniList configuration
-          plugin_anilist: yes
-          plugin_anilist_limit: ${{ vars.ANILIST_LIMIT_MOBILE }}
-          plugin_anilist_limit_characters: ${{ vars.ANILIST_LIMIT_CHARACTERS }}
-          plugin_anilist_medias: ${{ vars.ANILIST_MEDIAS }}
-          plugin_anilist_sections: ${{ vars.ANILIST_MEDIAS_SECTIONS }}
-          plugin_anilist_user: ${{ secrets.ANILIST_USER }}
-
-      # Desktop-optimized version
-      - name: Medias (Desktop)
-        uses: lowlighter/metrics@latest
-        with:
-          filename: static/anilist.characters.desktop.svg
-          token: NOT_NEEDED
-          config_display: large # Desktop view width (common desktop resolution)
-          base: ""
-          base_hireable: yes
-          committer_branch: static/plugins
-
-          # AniList configuration
+          # Do NOT auto-commit from metrics; we'll commit the processed output ourselves
+          # (omit committer_branch / committer_message)
           plugin_anilist: yes
           plugin_anilist_limit: ${{ vars.ANILIST_LIMIT_DESKTOP }}
           plugin_anilist_limit_characters: ${{ vars.ANILIST_LIMIT_CHARACTERS }}
           plugin_anilist_medias: ${{ vars.ANILIST_MEDIAS }}
           plugin_anilist_sections: ${{ vars.ANILIST_MEDIAS_SECTIONS }}
           plugin_anilist_user: ${{ secrets.ANILIST_USER }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Post-process SVG (inject AniList characters) for DESKTOP
+        run: |
+          python scripts/anilist.py \
+            static/anilist.characters.desktop.svg \
+            --source static/anilist.characters.svg \
+            --max-images "${{ vars.ANILIST_LIMIT_CHARACTERS }}"
+
+      - name: Post-process SVG (inject AniList characters) for MOBILE
+        run: |
+          python scripts/anilist.py \
+            static/anilist.characters.mobile.svg \
+            --source static/anilist.characters.svg \
+            --max-images "${{ vars.ANILIST_LIMIT_CHARACTERS }}"
+
+      - name: Commit processed SVG to main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add static/anilist.characters.desktop.svg static/anilist.characters.mobile.svg
+          git commit -m "chore(metrics): post-process AniList SVG [skip ci]" || echo "No changes to commit"
+
+          git push origin HEAD:main
