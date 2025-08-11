@@ -48,9 +48,6 @@ jobs:
             --source static/anilist.characters.svg \
             --max-images "${{ vars.ANILIST_LIMIT_CHARACTERS }}"
 
-      - name: Clean-up generic SVG
-        run: rm static/anilist.characters.svg
-
       - name: Commit processed SVG to main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -62,4 +59,8 @@ jobs:
           git add static/anilist.characters.desktop.svg static/anilist.characters.mobile.svg
           git commit -m "chore(metrics): post-process AniList SVG [skip ci]" || echo "No changes to commit"
 
+          git pull origin HEAD:main
           git push origin HEAD:main
+
+      - name: Clean-up generic SVG
+        run: rm static/anilist.characters.svg
