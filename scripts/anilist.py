@@ -62,6 +62,12 @@ class AniListSVG:
         except ET.ParseError as e:
             AniListSVG.err(f"Failed to parse SVG '{path}': {e}")
 
+    @staticmethod
+    def _parse_length(value: str) -> float | None:
+        """Parse '750' or '750px' -> 750.0; returns None if not numeric."""
+        match = re.match(r"^\s*(\d*\.?\d+)", value)
+        return float(match.group(1)) if match else None
+
     def extract_uris_data(self, root: ET.Element, max_images: int | None) -> list[str]:
         """Extract base64 `data:image/*` URIs from an AniList-style source SVG.
 
@@ -188,6 +194,32 @@ class AniListSVG:
 
         return [items, metrics]
 
+    def adjust_root_height(
+        self, root: ET.Element, data_uris: list[str], height: int, width: int
+    ):
+        svg_width = self._parse_length(root.get("width"))
+        existing_height = self._parse_length(root.get("height")) or 0
+
+        if svg_width is None or svg_width <= 0:
+            self.warn("Cannot infer <svg width>; skipping auto height adjustment.")
+        else:
+            # Cards per row based on fixed SVG width and card width
+            per_row = max(1, svg_width // max(1, width))
+            rows = (len(data_uris) + per_row - 1) // per_row if data_uris else 0
+
+            # vertical spacing: ~32% of card height per row -> SUPER IMPORTANT!!!!!!!!!!!
+            row_gap = max(0, int(round(height * 0.32)))
+
+            # Total height = rows * card height + gaps between rows
+            required_height = rows * height + max(rows - 1, 0) * row_gap
+            required_height = int(required_height) + 1
+
+            if required_height > existing_height:
+                root.set("height", str(required_height))
+                self.info(
+                    f"Adjusted <svg> height: {existing_height} -> {required_height}"
+                )
+
     def inject(
         self,
         target_svg: Path,
@@ -213,6 +245,8 @@ class AniListSVG:
 
         for child in self.build_anilist_section(data_uris, width, height):
             fo.append(child)
+
+        self.adjust_root_height(target_file.getroot(), height, width, data_uris)
 
         try:
             path = output or target_svg.with_suffix(".out.svg")
