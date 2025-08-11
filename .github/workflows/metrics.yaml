@@ -39,6 +39,7 @@ jobs:
           python scripts/anilist.py \
             static/anilist.characters.desktop.svg \
             --source static/anilist.characters.svg \
+            --output static/anilist.characters.desktop.svg \
             --max-images "${{ vars.ANILIST_LIMIT_CHARACTERS }}"
 
       - name: Post-process SVG (inject AniList characters) for MOBILE
@@ -46,6 +47,7 @@ jobs:
           python scripts/anilist.py \
             static/anilist.characters.mobile.svg \
             --source static/anilist.characters.svg \
+            --output static/anilist.characters.mobile.svg \
             --max-images "${{ vars.ANILIST_LIMIT_CHARACTERS }}"
 
       - name: Commit processed SVG to main
@@ -56,11 +58,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add static/anilist.characters.desktop.svg static/anilist.characters.mobile.svg
+          rm -f static/anilist.characters.svg
+          git add -A static/
+
           git commit -m "chore(metrics): post-process AniList SVG [skip ci]" || echo "No changes to commit"
-
-          git pull origin HEAD:main
+          git pull --rebase origin main
           git push origin HEAD:main
-
-      - name: Clean-up generic SVG
-        run: rm static/anilist.characters.svg
