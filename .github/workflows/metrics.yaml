@@ -39,14 +39,14 @@ jobs:
 
       - name: Post-process SVG (inject AniList characters) for DESKTOP
         run: |
-          python scripts/anilist.py \
+          python .github/scripts/anilist.py \
             static/anilist.characters.desktop.svg \
             --source static/anilist.characters.svg \
             --max-images "${{ vars.ANILIST_LIMIT_CHARACTERS }}"
 
       - name: Post-process SVG (inject AniList characters) for MOBILE
         run: |
-          python scripts/anilist.py \
+          python .github/scripts/anilist.py \
             static/anilist.characters.mobile.svg \
             --source static/anilist.characters.svg \
             --max-images "${{ vars.ANILIST_LIMIT_CHARACTERS }}"
