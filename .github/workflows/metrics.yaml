@@ -11,9 +11,6 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
 
       - name: Medias
         uses: lowlighter/metrics@latest
@@ -50,6 +47,9 @@ jobs:
             static/anilist.characters.mobile.svg \
             --source static/anilist.characters.svg \
             --max-images "${{ vars.ANILIST_LIMIT_CHARACTERS }}"
+
+      - name: Clean-up generic SVG
+        run: rm static/anilist.characters.svg
 
       - name: Commit processed SVG to main
         env:
