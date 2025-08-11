@@ -246,7 +246,7 @@ class AniListSVG:
         for child in self.build_anilist_section(data_uris, width, height):
             fo.append(child)
 
-        self.adjust_root_height(target_file.getroot(), height, width, data_uris)
+        self.adjust_root_height(target_file.getroot(), data_uris, height, width)
 
         try:
             path = output or target_svg.with_suffix(".out.svg")
