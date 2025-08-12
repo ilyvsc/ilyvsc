@@ -67,9 +67,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git rm -f --ignore-unmatch static/anilist.characters.svg
-          git add -A static/
+          git add -f static/anilist.characters.desktop.svg static/anilist.characters.mobile.svg
 
-          git commit -m "chore(metrics): post-process AniList SVG [skip ci]" || echo "No changes to commit"
-          git pull --rebase origin main || true
-          git push origin HEAD:main
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(metrics): post-process AniList SVG [skip ci]"
+            git push origin main || { git pull --rebase origin main && git push origin main; }
+          else
+            echo "No changes to commit"
+          fi
