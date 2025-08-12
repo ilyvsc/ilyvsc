@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Medias
         uses: lowlighter/metrics@latest
@@ -50,6 +52,13 @@ jobs:
             --output static/anilist.characters.mobile.svg \
             --max-images "${{ vars.ANILIST_LIMIT_CHARACTERS }}"
 
+      - name: Sync to latest main
+        run: |
+          set -e
+          git fetch origin main
+          git checkout -B main
+          git reset --hard origin/main
+
       - name: Commit processed SVG to main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -62,5 +71,4 @@ jobs:
           git add -A static/
 
           git commit -m "chore(metrics): post-process AniList SVG [skip ci]" || echo "No changes to commit"
-          git pull --rebase origin main
           git push origin HEAD:main
