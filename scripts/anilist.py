@@ -139,11 +139,7 @@ class AniListSVG:
         return data_uris
 
     def find_object(self, root: ET.Element, merge: bool) -> ET.Element:
-        """
-        Select and prepare a `<foreignObject>` in an SVG for injection.
-
-        Note: When `merge` is False, this function MUTATES the selected `<foreignObject>` by removing all child nodes.
-        """
+        """Select and prepare a `<foreignObject>` in an SVG for injection."""
 
         foreign_object = list(root.findall(".//svg:foreignObject", NSMAP))
 
@@ -154,17 +150,18 @@ class AniListSVG:
             return element.find(".//xhtml:div[@class='anilist']", NSMAP) is not None
 
         anilist_fos = [obj for obj in foreign_object if has_anilist(obj)]
-        other_fos = [obj for obj in foreign_object if not has_anilist(obj)]
 
         if merge:
             return anilist_fos[0] if anilist_fos else foreign_object[0]
 
-        # 1) Prefer a foreignObject without .anilist to avoid accidental merge
-        target = other_fos[0] if other_fos else foreign_object[0]
+        target = anilist_fos[0] if anilist_fos else foreign_object[0]
 
-        # 2) Override: clear all existing children so we fully replace content
-        for child in target:
+        for child in list(target):
             target.remove(child)
+
+        for extra in anilist_fos[1:]:
+            for child in list(extra):
+                extra.remove(child)
 
         return target
 
@@ -195,30 +192,66 @@ class AniListSVG:
         return [items, metrics]
 
     def adjust_root_height(
-        self, root: ET.Element, data_uris: list[str], height: int, width: int
+        self,
+        root: ET.Element,
+        data_uris: list[str],
+        card_h: int,
+        card_w: int,
     ):
-        svg_width = self._parse_length(root.get("width"))
-        existing_height = self._parse_length(root.get("height")) or 0
+        def parse_float(s: str | None) -> float | None:
+            if not s:
+                return None
+            m = re.match(r"^\s*(\d*\.?\d+)", s)
+            return float(m.group(1)) if m else None
+
+        ANILIST_LEFT_MARGIN = 18.0
+        ANILIST_TOP_MARGIN = 4.0
+        IMG_MARGIN = 2.0  # top/bottom/left/right
+
+        svg_width = parse_float(root.get("width"))
+
+        if svg_width is None:
+            if vb := root.get("viewBox"):
+                parts = vb.replace(",", " ").split()
+                if len(parts) == 4:
+                    try:
+                        svg_width = float(parts[2])
+                    except ValueError:
+                        svg_width = None
 
         if svg_width is None or svg_width <= 0:
             self.warn("Cannot infer <svg width>; skipping auto height adjustment.")
-        else:
-            # Cards per row based on fixed SVG width and card width
-            per_row = max(1, svg_width // max(1, width))
-            rows = (len(data_uris) + per_row - 1) // per_row if data_uris else 0
+            return
 
-            # vertical spacing: ~32% of card height per row -> SUPER IMPORTANT!!!!!!!!!!!
-            row_gap = max(0, int(round(height * 0.32)))
+        available_width = max(1.0, svg_width - ANILIST_LEFT_MARGIN)
+        card_width = max(1.0, float(card_w) + 2.0 * IMG_MARGIN)
 
-            # Total height = rows * card height + gaps between rows
-            required_height = rows * height + max(rows - 1, 0) * row_gap
-            required_height = int(required_height) + 1
+        # How many cards fit per row (flex-wrap)
+        per_row = int(available_width // card_width)
+        if per_row <= 0:
+            per_row = 1
 
-            if required_height > existing_height:
-                root.set("height", str(required_height))
-                self.info(
-                    f"Adjusted <svg> height: {existing_height} -> {required_height}"
-                )
+        total_characters = len(data_uris)
+        if total_characters <= 0:
+            return
+
+        import math
+
+        rows = int(math.ceil(total_characters / per_row))
+
+        # Each row's vertical consumption is image height + top+bottom margins.
+        row_height = float(card_h) + 2.0 * IMG_MARGIN
+        required_height = ANILIST_TOP_MARGIN + rows * row_height
+        existing_height = parse_float(root.get("height")) or 0.0
+
+        # only grow, never shrink
+        # +1 px safety to avoid scroll-cut in some renderers
+        if required_height > existing_height:
+            new_height = int(math.ceil(required_height)) + 1
+            root.set("height", str(new_height))
+            self.info(
+                f"Adjusted <svg> height: {existing_height} -> {new_height} (rows={rows}, per_row={per_row})"
+            )
 
     def inject(
         self,
