@@ -247,7 +247,7 @@ class AniListSVG:
         # only grow, never shrink
         # +1 px safety to avoid scroll-cut in some renderers
         if required_height > existing_height:
-            new_height = int(math.ceil(required_height)) + 1
+            new_height = int(math.ceil(required_height)) + 4
             root.set("height", str(new_height))
             self.info(
                 f"Adjusted <svg> height: {existing_height} -> {new_height} (rows={rows}, per_row={per_row})"
