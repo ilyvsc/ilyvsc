@@ -33,35 +33,47 @@ as you can see, this is not professional-ready, but why would it be?
 <!-- START congrats section -->
 
 <div align="center">
-  <h2>Special thanks to these masterpieces. お疲れ様です <3 </h2>
+  <h2>Special thanks to these masterpieces.</h2>
 
 <div style="display: flex; justify-content: center; flex-wrap: wrap;">
   <a href="https://open.spotify.com/album/4qApTp9557qYZzRLEih4uP">
     <picture>
       <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="100">
-      <img src="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="250">
+      <img src="https://i.scdn.co/image/ab67616d0000b2733d1869d8c477d291a205a2d6" width="150">
     </picture>
   </a>
 
   <a href="https://open.spotify.com/artist/6mEQK9m2krja6X1cfsAjfl">
     <picture>
       <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="100">
-      <img src="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="250">
+      <img src="https://i.scdn.co/image/ab67616d0000b2737e39bafe4f50dd5e15cfe9b0" width="150">
     </picture>
   </a>
 
   <a href="https://open.spotify.com/album/24pr7CLiiJk8rUsXcocSA4">
     <picture>
       <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b27374164dc6fb6a320abf6a34fd" width="100">
-      <img src="https://i.scdn.co/image/ab67616d0000b27374164dc6fb6a320abf6a34fd" width="250">
+      <img src="https://i.scdn.co/image/ab67616d0000b27374164dc6fb6a320abf6a34fd" width="150">
+    </picture>
+  </a>
+
+  <a href="https://open.spotify.com/album/7wULgwMQk3K8FdcYqCKVlO">
+    <picture>
+      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b273fbef4bb6c909795b8f8aab58" width="100">
+      <img src="https://i.scdn.co/image/ab67616d0000b273fbef4bb6c909795b8f8aab58" width="150">
+    </picture>
+  </a>
+
+  <a href="https://open.spotify.com/album/5ZGzGGNAB6U7QlKpdaMu0d">
+    <picture>
+      <source media="(max-width: 768px)" srcset="https://i.scdn.co/image/ab67616d0000b273384850c46c22b0685d6def6f" width="100">
+      <img src="https://i.scdn.co/image/ab67616d0000b273384850c46c22b0685d6def6f" width="150">
     </picture>
   </a>
 </div>
 </div>
 
 <!-- END congrats section -->
-
-## 
 
 <div align="center">
 <picture>
@@ -70,10 +82,6 @@ as you can see, this is not professional-ready, but why would it be?
   <img src="static/anilist.characters.desktop.svg" alt="AniList Characters | MEGUMIN BEST GIRL" width="1200px">
 </picture>
 </div>
-
-<!-- Do you think that I am insane? -->
-<!-- myself: are you seriously asking? -->
-<!-- myself again: who cares? -->
 
 <!-- Link Definitions -->
 [welcome-gif]: https://media.tenor.com/EPezFYu-f1IAAAAj/welcome-vocaloid.gif
